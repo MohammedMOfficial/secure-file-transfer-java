@@ -1,0 +1,20 @@
+# Build output
+target/
+*.class
+out/
+bin/
+
+# IDE
+.idea/
+.vscode/
+.classpath
+.project
+.settings/
+*.iml
+
+# Secrets and runtime data - never commit these
+*.jks
+*.p12
+*.pem
+*.env
+server_files/
